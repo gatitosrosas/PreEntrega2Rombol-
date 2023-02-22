@@ -108,3 +108,63 @@ form{
 
     
 }
+
+.title-grids{
+    color: rgb(245, 0, 143);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+    margin: 20px;
+
+}
+
+/*Ejemplo de grid-conteiner
+.div-container{
+    width: 90%;
+    max-width: 1000px;
+    border: 3px rgb(255, 255, 255) solid;
+    margin: auto;
+
+    font-size: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: center;
+    color: greenyellow;
+    background-color: blueviolet;
+
+    Acá activando grid:
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 33% 33% 33%;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-items: center;
+    align-items: center;
+}
+*/
+
+.div-container > div{
+    display: block;
+    padding: 20px;
+    
+}
+
+.portfolio-container{
+
+    width: 78%;
+    margin: auto;
+
+    /*activando grid*/
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 33% 33% 33%;
+    column-gap: 5px;
+    row-gap: 5px;
+    justify-items: center;
+    align-items: baseline;
+}
+
+.img-portfolio{
+    width:280px;
+}
